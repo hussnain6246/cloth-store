@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Cart - SHOP.CO</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="4.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>AINA.CO</h1>
+
+
+            </div>
+            <nav>
+                <a href="index.html">
+                    Home
+                </a>
+                <a href="3.html">
+                    New Arrivals
+                </a>
+                <a href="product.html">
+                    Shop
+                </a>
+                <a href="4.html">
+                    Cart
+                </a>
+            </nav>
+            <div class="search-bar">
+
+                <input type="text" class="search-input" placeholder="Search for products...">
+                <i class="fas fa-search">
+                </i><i class="fas fa-shopping-cart">
+</i>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="section-header">
+        <h1> YOUR CART </h1>
+    </div>
+
+    <main class="container" id="main-content">
+        <section aria-labelledby="cart-heading">
+
+<div class="grid">
+            <div class="cart-items">
+                <div class="cart-item" role="listitem">
+                    <div class="cart-item-details">
+                        <img src="images/th(7).jpg" alt="White Gradient Graphic T-shirt, size Large">
+                        <div>
+                            <h3>Purple Half Sleeve shirt</h3>
+                            <p>Size: Large</p>
+                            <p>Color: White</p>
+                        </div>
+                    </div>
+                    <div class="cart-item-actions">
+                        <p><span class="visually-hidden">Price: </span>$145</p>
+                        <button aria-label="Decrease quantity"><i class="fas fa-minus"></i></button>
+                        <span aria-live="polite">1</span>
+                        <button aria-label="Increase quantity"><i class="fas fa-plus"></i></button>
+                        <button aria-label="Remove item"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-items">
+
+                <div class="cart-item" role="listitem">
+                    <div class="cart-item-details">
+                        <img src="images/th(12).jpg" alt="White Gradient Graphic T-shirt, size Large">
+                        <div>
+                            <h3>White Unisex Shirt</h3>
+                            <p>Size: Large</p>
+                            <p>Color: White</p>
+                        </div>
+                    </div>
+                    <div class="cart-item-actions">
+                        <p><span class="visually-hidden">Price: </span>$145</p>
+                        <button aria-label="Decrease quantity"><i class="fas fa-minus"></i></button>
+                        <span aria-live="polite">1</span>
+                        <button aria-label="Increase quantity"><i class="fas fa-plus"></i></button>
+                        <button aria-label="Remove item"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+    
+
+                  <div class="cart-items">
+
+                <div class="cart-item" role="listitem">
+                    <div class="cart-item-details">
+                        <img src="images/th(5).jpg" alt="White Gradient Graphic T-shirt, size Large">
+                        <div>
+                            <h3>Olive Green T-shirt</h3>
+                            <p>Size: Large</p>
+                            <p>Color: White</p>
+                        </div>
+                    </div>
+                    <div class="cart-item-actions">
+                        <p><span class="visually-hidden">Price: </span>$145</p>
+                        <button aria-label="Decrease quantity"><i class="fas fa-minus"></i></button>
+                        <span aria-live="polite">1</span>
+                        <button aria-label="Increase quantity"><i class="fas fa-plus"></i></button>
+                        <button aria-label="Remove item"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-items">
+
+                <div class="cart-item" role="listitem">
+                    <div class="cart-item-details">
+                        <img src="images/th(16).jpg" alt="White Gradient Graphic T-shirt, size Large">
+                        <div>
+                            <h3>Yellow T-shirt</h3>
+                            <p>Size: Large</p>
+                            <p>Color: White</p>
+                        </div>
+                    </div>
+                    <div class="cart-item-actions">
+                        <p><span class="visually-hidden">Price: </span>$145</p>
+                        <button aria-label="Decrease quantity"><i class="fas fa-minus"></i></button>
+                        <span aria-live="polite">1</span>
+                        <button aria-label="Increase quantity"><i class="fas fa-plus"></i></button>
+                        <button aria-label="Remove item"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+    </div>
+            <!-- Repeat other cart items similarly -->
+        </section>
+
+        <section aria-labelledby="order-summary-heading">
+            <div class="carts">
+                <div class="order-summary">
+                    <h2 id="order-summary-heading">Order Summary</h2>
+                    <div role="list">
+                        <div role="listitem">
+                            <p>Subtotal</p>
+                           
+                                <p>$565</p>
+                            
+                          
+                        </div>
+                        <!-- Other summary items -->
+                    </div>
+                    <div class="promo-code">
+                        <label for="promo-code" class="visually-hidden">Enter promo code</label>
+                        <input type="text" id="promo-code" placeholder="Add promo code">
+                        <button>Apply</button>
+                    </div>
+                    <button class="checkout-button">
+                        Go to Checkout <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+             </div>
+        </section>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+            <div class="subscribe-form">
+                <input type="email" placeholder="Enter your email address">
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>AINA.CO</h4>
+                <p>Discover your perfect style with our curated collection of fashion essentials.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <a href="#">FAQs</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>All rights reserved</p>
+            <p> Made By Hussnain Ahmad Qureshi</p>
+        </div>
+    </footer>
+</body>
+</html>
